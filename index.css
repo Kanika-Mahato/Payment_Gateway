@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+   
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url(img/main-bg.jpg);
+    background-size: 100% 100%;
+}
+#banner{
+    background: url(img/background.jpg);
+    background-size:100% 100%;
+    background-position: cover;
+    height:100vh;
+}
+
+#banner #nav{
+    position :sticky;    
+}
+#collapsibleNavbar ul{
+    float:right;
+    list-style-type: none;
+    margin-top:30px;
+    font-size: 20px;
+}
+#collapsibleNavbar ul li{
+    display:inline-block;
+    padding:10px;
+    margin-left: 50px;
+
+}
+#collapsibleNavbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#collapsibleNavbar ul li a:hover{
+    color:white;
+}
+#collapsibleNavbar ul li .active{
+    color:aqua;
+    
+}
+#collapsibleNavbar ul li:hover{
+    border: 1px solid aqua;
+    background:linear-gradient(180deg,aqua,grey);
+    border-radius: 20px;
+}
+
+#main-banner{
+    color: azure;
+    text-align:left;
+  padding-top:5%;
+}
+#main-banner img{
+    width:100px;
+    height:100px;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-left: 230px;
+}
+#main-banner h1 span{
+    color:aqua;
+}
+#logo{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#brand{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+    margin-top: 40px;
+}
+
+#button{
+    padding-top:20px;
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+#button h1,p{
+    color:white;
+    
+}
+#social{
+    text-align: left;
+    color:white;
+}
+#social ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#social ul li:hover{
+    color:lightgrey;
+}
+.lead{
+    margin-left: 30px;
+    
+}
+.fa-bars{
+    color:whitesmoke;
+}
+button.navbar-toggler.collapsed {
+    outline: none;
+}
+.donate{
+    background:linear-gradient(45deg,#616380,rgb(52, 44, 70));
+    padding:10px;
+    width:150px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color:white;
+    outline: none;
+   
+}
+.donate:hover{
+    background: transparent;
+   
+    border:1px solid white;
+}
+.mission h3,.gallery h3{
+    margin-top: 10% ;
+    margin-bottom: 5%;
+    text-align: center;
+    color: whitesmoke;
+   
+}
+.gallery h3{
+    margin-top: 5%;
+}
+.mission .card{
+    background: linear-gradient(45deg, rgb(223, 223, 135),rgb(221, 198, 198));
+    padding:10px;
+    text-align: center;
+    padding-top:20px ;
+}
+.mission .card p{
+    color: rgb(108, 42, 173);
+    text-align: justify;
+}
+.more1,.more2,.more3{
+    color:rgb(12, 10, 11);
+    border: none;
+    background:linear-gradient(45deg,yellow,grey);
+    width:100px;
+    align-self: center;
+    border-radius: 10px;
+    padding:10px;
+   
+}
+
+.desc1,.desc2,.desc3{
+    display:none;
+}
+.gallery .row{
+    margin:10px;
+}
+#photo{
+    width:100%;
+    height:260px;
+}
+#footer {
+    margin-top: 5%;
+    color:white;
+    text-align: center;
+    padding-bottom: 5%;
+}
+#footer ul li {
+    display:inline;
+    font-size: 30px;
+    padding:10px;
+    
+}
+
+@media(max-width:992px){
+    #collapsibleNavbar ul li{
+    display: block;
+    }
+    #brand{
+        display:none;
+    }
+    #collapsibleNavbar ul li:hover{
+        border: none;
+    }
+    #collapsibleNavbar ul {
+        text-align: center;
+        float: none;
+       
+    }
+    nav#nav {
+        background:linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7));
+    }
+   
+}
